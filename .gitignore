@@ -15,8 +15,9 @@ _autosave-*
 fp-info-cache
 
 # Gerber Files
-gerber/*.gbr
-gerber/*.gbrjob
+Gerber/*.gbr
+Gerber/*.gbrjob
+Gerber/*.drl
 
 # Netlist files (exported from Eeschema)
 *.net
