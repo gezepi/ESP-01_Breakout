@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name RLS-397)(type KiCad)(uri /home/gezepi/Projects/ESP-01_Breakout/RLS-397)(options "")(descr ""))
+  (lib (name TBL003-254-02GR-2OR)(type KiCad)(uri /home/gezepi/Projects/ESP-01_Breakout/TBL003-254-02GR-2OR)(options "")(descr ""))
+  (lib (name ESP-01_Breakout)(type KiCad)(uri ${KIPRJMOD}/ESP-01_Breakout.pretty)(options "")(descr ""))
+)

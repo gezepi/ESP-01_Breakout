@@ -1,0 +1,2193 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ESP8266:ESP-01v090 U1
+U 1 1 5E4B5DD1
+P 6400 3850
+F 0 "U1" H 6400 4365 50  0000 C CNN
+F 1 "ESP-01v090" H 6400 4274 50  0000 C CNN
+F 2 "ESP8266:ESP-01" H 6400 3850 50  0001 C CNN
+F 3 "http://l0l.org.uk/2014/12/esp8266-modules-hardware-guide-gotta-catch-em-all/" H 6400 3850 50  0001 C CNN
+F 4 "SAM1212-04-ND" H 6400 3850 50  0001 C CNN "DigikeyPN"
+	1    6400 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5E4DE4C6
+P 2000 3000
+F 0 "TP1" H 2058 3118 50  0001 L CNN
+F 1 "TestPoint" H 2058 3027 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2200 3000 50  0001 C CNN
+F 3 "~" H 2200 3000 50  0001 C CNN
+	1    2000 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 3700 5350 3700
+Wire Wire Line
+	5450 3800 5350 3800
+Wire Wire Line
+	5450 3900 5350 3900
+Wire Wire Line
+	7350 3800 7450 3800
+Wire Wire Line
+	7350 3900 7450 3900
+Wire Wire Line
+	7350 4000 7450 4000
+$Comp
+L power:GND #PWR0101
+U 1 1 5E4E1C81
+P 7700 3600
+F 0 "#PWR0101" H 7700 3350 50  0001 C CNN
+F 1 "GND" H 7705 3427 50  0000 C CNN
+F 2 "" H 7700 3600 50  0001 C CNN
+F 3 "" H 7700 3600 50  0001 C CNN
+	1    7700 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 3700 7600 3550
+Wire Wire Line
+	7600 3550 7700 3550
+Wire Wire Line
+	7700 3550 7700 3600
+Wire Wire Line
+	7350 3700 7600 3700
+Wire Wire Line
+	5300 4000 5300 4150
+Wire Wire Line
+	5300 4150 5100 4150
+Wire Wire Line
+	5100 4150 5100 4100
+Wire Wire Line
+	5300 4000 5450 4000
+Text Label 7450 3800 0    50   ~ 0
+IO1
+Text Label 7450 3900 0    50   ~ 0
+IO0
+Text Label 7450 4000 0    50   ~ 0
+RX
+Text Label 5350 3900 2    50   ~ 0
+RST
+Text Label 5350 3800 2    50   ~ 0
+EN
+Text Label 5350 3700 2    50   ~ 0
+TX
+$Comp
+L Connector:TestPoint TP9
+U 1 1 5E4E591E
+P 2100 3000
+F 0 "TP9" H 2158 3118 50  0001 L CNN
+F 1 "TestPoint" H 2158 3027 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2300 3000 50  0001 C CNN
+F 3 "~" H 2300 3000 50  0001 C CNN
+	1    2100 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP17
+U 1 1 5E4E59E7
+P 2200 3000
+F 0 "TP17" H 2258 3118 50  0001 L CNN
+F 1 "TestPoint" H 2258 3027 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2400 3000 50  0001 C CNN
+F 3 "~" H 2400 3000 50  0001 C CNN
+	1    2200 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP25
+U 1 1 5E4E5ADA
+P 2300 3000
+F 0 "TP25" H 2358 3118 50  0001 L CNN
+F 1 "TestPoint" H 2358 3027 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2500 3000 50  0001 C CNN
+F 3 "~" H 2500 3000 50  0001 C CNN
+	1    2300 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP33
+U 1 1 5E4E5BF0
+P 2400 3000
+F 0 "TP33" H 2458 3118 50  0001 L CNN
+F 1 "TestPoint" H 2458 3027 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2600 3000 50  0001 C CNN
+F 3 "~" H 2600 3000 50  0001 C CNN
+	1    2400 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP41
+U 1 1 5E4EBAE8
+P 2500 3000
+F 0 "TP41" H 2558 3118 50  0001 L CNN
+F 1 "TestPoint" H 2558 3027 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2700 3000 50  0001 C CNN
+F 3 "~" H 2700 3000 50  0001 C CNN
+	1    2500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP49
+U 1 1 5E4EBAEE
+P 2600 3000
+F 0 "TP49" H 2658 3118 50  0001 L CNN
+F 1 "TestPoint" H 2658 3027 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2800 3000 50  0001 C CNN
+F 3 "~" H 2800 3000 50  0001 C CNN
+	1    2600 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP57
+U 1 1 5E4EBAF4
+P 2700 3000
+F 0 "TP57" H 2758 3118 50  0001 L CNN
+F 1 "TestPoint" H 2758 3027 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2900 3000 50  0001 C CNN
+F 3 "~" H 2900 3000 50  0001 C CNN
+	1    2700 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP65
+U 1 1 5E4EBAFA
+P 2800 3000
+F 0 "TP65" H 2858 3118 50  0001 L CNN
+F 1 "TestPoint" H 2858 3027 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3000 3000 50  0001 C CNN
+F 3 "~" H 3000 3000 50  0001 C CNN
+	1    2800 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP73
+U 1 1 5E4EBB00
+P 2900 3000
+F 0 "TP73" H 2958 3118 50  0001 L CNN
+F 1 "TestPoint" H 2958 3027 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3100 3000 50  0001 C CNN
+F 3 "~" H 3100 3000 50  0001 C CNN
+	1    2900 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP81
+U 1 1 5E4EC3AD
+P 3000 3000
+F 0 "TP81" H 3058 3118 50  0001 L CNN
+F 1 "TestPoint" H 3058 3027 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3200 3000 50  0001 C CNN
+F 3 "~" H 3200 3000 50  0001 C CNN
+	1    3000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP89
+U 1 1 5E4EC3B3
+P 3100 3000
+F 0 "TP89" H 3158 3118 50  0001 L CNN
+F 1 "TestPoint" H 3158 3027 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3300 3000 50  0001 C CNN
+F 3 "~" H 3300 3000 50  0001 C CNN
+	1    3100 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP97
+U 1 1 5E4EC3B9
+P 3200 3000
+F 0 "TP97" H 3258 3118 50  0001 L CNN
+F 1 "TestPoint" H 3258 3027 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3400 3000 50  0001 C CNN
+F 3 "~" H 3400 3000 50  0001 C CNN
+	1    3200 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP105
+U 1 1 5E4EC3BF
+P 3300 3000
+F 0 "TP105" H 3358 3118 50  0001 L CNN
+F 1 "TestPoint" H 3358 3027 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3500 3000 50  0001 C CNN
+F 3 "~" H 3500 3000 50  0001 C CNN
+	1    3300 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP113
+U 1 1 5E4EC3C5
+P 3400 3000
+F 0 "TP113" H 3458 3118 50  0001 L CNN
+F 1 "TestPoint" H 3458 3027 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3600 3000 50  0001 C CNN
+F 3 "~" H 3600 3000 50  0001 C CNN
+	1    3400 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5E4EEB94
+P 2000 3200
+F 0 "TP2" H 2058 3318 50  0001 L CNN
+F 1 "TestPoint" H 2058 3227 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2200 3200 50  0001 C CNN
+F 3 "~" H 2200 3200 50  0001 C CNN
+	1    2000 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP10
+U 1 1 5E4EEB9A
+P 2100 3200
+F 0 "TP10" H 2158 3318 50  0001 L CNN
+F 1 "TestPoint" H 2158 3227 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2300 3200 50  0001 C CNN
+F 3 "~" H 2300 3200 50  0001 C CNN
+	1    2100 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP18
+U 1 1 5E4EEBA0
+P 2200 3200
+F 0 "TP18" H 2258 3318 50  0001 L CNN
+F 1 "TestPoint" H 2258 3227 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2400 3200 50  0001 C CNN
+F 3 "~" H 2400 3200 50  0001 C CNN
+	1    2200 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP26
+U 1 1 5E4EEBA6
+P 2300 3200
+F 0 "TP26" H 2358 3318 50  0001 L CNN
+F 1 "TestPoint" H 2358 3227 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2500 3200 50  0001 C CNN
+F 3 "~" H 2500 3200 50  0001 C CNN
+	1    2300 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP34
+U 1 1 5E4EEBAC
+P 2400 3200
+F 0 "TP34" H 2458 3318 50  0001 L CNN
+F 1 "TestPoint" H 2458 3227 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2600 3200 50  0001 C CNN
+F 3 "~" H 2600 3200 50  0001 C CNN
+	1    2400 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP42
+U 1 1 5E4EEBB2
+P 2500 3200
+F 0 "TP42" H 2558 3318 50  0001 L CNN
+F 1 "TestPoint" H 2558 3227 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2700 3200 50  0001 C CNN
+F 3 "~" H 2700 3200 50  0001 C CNN
+	1    2500 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP50
+U 1 1 5E4EEBB8
+P 2600 3200
+F 0 "TP50" H 2658 3318 50  0001 L CNN
+F 1 "TestPoint" H 2658 3227 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2800 3200 50  0001 C CNN
+F 3 "~" H 2800 3200 50  0001 C CNN
+	1    2600 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP58
+U 1 1 5E4EEBBE
+P 2700 3200
+F 0 "TP58" H 2758 3318 50  0001 L CNN
+F 1 "TestPoint" H 2758 3227 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2900 3200 50  0001 C CNN
+F 3 "~" H 2900 3200 50  0001 C CNN
+	1    2700 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP66
+U 1 1 5E4EEBC4
+P 2800 3200
+F 0 "TP66" H 2858 3318 50  0001 L CNN
+F 1 "TestPoint" H 2858 3227 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3000 3200 50  0001 C CNN
+F 3 "~" H 3000 3200 50  0001 C CNN
+	1    2800 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP74
+U 1 1 5E4EEBCA
+P 2900 3200
+F 0 "TP74" H 2958 3318 50  0001 L CNN
+F 1 "TestPoint" H 2958 3227 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3100 3200 50  0001 C CNN
+F 3 "~" H 3100 3200 50  0001 C CNN
+	1    2900 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP82
+U 1 1 5E4EEBD0
+P 3000 3200
+F 0 "TP82" H 3058 3318 50  0001 L CNN
+F 1 "TestPoint" H 3058 3227 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3200 3200 50  0001 C CNN
+F 3 "~" H 3200 3200 50  0001 C CNN
+	1    3000 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP90
+U 1 1 5E4EEBD6
+P 3100 3200
+F 0 "TP90" H 3158 3318 50  0001 L CNN
+F 1 "TestPoint" H 3158 3227 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3300 3200 50  0001 C CNN
+F 3 "~" H 3300 3200 50  0001 C CNN
+	1    3100 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP98
+U 1 1 5E4EEBDC
+P 3200 3200
+F 0 "TP98" H 3258 3318 50  0001 L CNN
+F 1 "TestPoint" H 3258 3227 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3400 3200 50  0001 C CNN
+F 3 "~" H 3400 3200 50  0001 C CNN
+	1    3200 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP106
+U 1 1 5E4EEBE2
+P 3300 3200
+F 0 "TP106" H 3358 3318 50  0001 L CNN
+F 1 "TestPoint" H 3358 3227 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3500 3200 50  0001 C CNN
+F 3 "~" H 3500 3200 50  0001 C CNN
+	1    3300 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP114
+U 1 1 5E4EEBE8
+P 3400 3200
+F 0 "TP114" H 3458 3318 50  0001 L CNN
+F 1 "TestPoint" H 3458 3227 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3600 3200 50  0001 C CNN
+F 3 "~" H 3600 3200 50  0001 C CNN
+	1    3400 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5E4F01FC
+P 2000 3400
+F 0 "TP3" H 2058 3518 50  0001 L CNN
+F 1 "TestPoint" H 2058 3427 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2200 3400 50  0001 C CNN
+F 3 "~" H 2200 3400 50  0001 C CNN
+	1    2000 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP11
+U 1 1 5E4F0202
+P 2100 3400
+F 0 "TP11" H 2158 3518 50  0001 L CNN
+F 1 "TestPoint" H 2158 3427 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2300 3400 50  0001 C CNN
+F 3 "~" H 2300 3400 50  0001 C CNN
+	1    2100 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP19
+U 1 1 5E4F0208
+P 2200 3400
+F 0 "TP19" H 2258 3518 50  0001 L CNN
+F 1 "TestPoint" H 2258 3427 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2400 3400 50  0001 C CNN
+F 3 "~" H 2400 3400 50  0001 C CNN
+	1    2200 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP27
+U 1 1 5E4F020E
+P 2300 3400
+F 0 "TP27" H 2358 3518 50  0001 L CNN
+F 1 "TestPoint" H 2358 3427 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2500 3400 50  0001 C CNN
+F 3 "~" H 2500 3400 50  0001 C CNN
+	1    2300 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP35
+U 1 1 5E4F0214
+P 2400 3400
+F 0 "TP35" H 2458 3518 50  0001 L CNN
+F 1 "TestPoint" H 2458 3427 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2600 3400 50  0001 C CNN
+F 3 "~" H 2600 3400 50  0001 C CNN
+	1    2400 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP43
+U 1 1 5E4F021A
+P 2500 3400
+F 0 "TP43" H 2558 3518 50  0001 L CNN
+F 1 "TestPoint" H 2558 3427 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2700 3400 50  0001 C CNN
+F 3 "~" H 2700 3400 50  0001 C CNN
+	1    2500 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP51
+U 1 1 5E4F0220
+P 2600 3400
+F 0 "TP51" H 2658 3518 50  0001 L CNN
+F 1 "TestPoint" H 2658 3427 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2800 3400 50  0001 C CNN
+F 3 "~" H 2800 3400 50  0001 C CNN
+	1    2600 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP59
+U 1 1 5E4F0226
+P 2700 3400
+F 0 "TP59" H 2758 3518 50  0001 L CNN
+F 1 "TestPoint" H 2758 3427 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2900 3400 50  0001 C CNN
+F 3 "~" H 2900 3400 50  0001 C CNN
+	1    2700 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP67
+U 1 1 5E4F022C
+P 2800 3400
+F 0 "TP67" H 2858 3518 50  0001 L CNN
+F 1 "TestPoint" H 2858 3427 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3000 3400 50  0001 C CNN
+F 3 "~" H 3000 3400 50  0001 C CNN
+	1    2800 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP75
+U 1 1 5E4F0232
+P 2900 3400
+F 0 "TP75" H 2958 3518 50  0001 L CNN
+F 1 "TestPoint" H 2958 3427 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3100 3400 50  0001 C CNN
+F 3 "~" H 3100 3400 50  0001 C CNN
+	1    2900 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP83
+U 1 1 5E4F0238
+P 3000 3400
+F 0 "TP83" H 3058 3518 50  0001 L CNN
+F 1 "TestPoint" H 3058 3427 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3200 3400 50  0001 C CNN
+F 3 "~" H 3200 3400 50  0001 C CNN
+	1    3000 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP91
+U 1 1 5E4F023E
+P 3100 3400
+F 0 "TP91" H 3158 3518 50  0001 L CNN
+F 1 "TestPoint" H 3158 3427 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3300 3400 50  0001 C CNN
+F 3 "~" H 3300 3400 50  0001 C CNN
+	1    3100 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP99
+U 1 1 5E4F0244
+P 3200 3400
+F 0 "TP99" H 3258 3518 50  0001 L CNN
+F 1 "TestPoint" H 3258 3427 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3400 3400 50  0001 C CNN
+F 3 "~" H 3400 3400 50  0001 C CNN
+	1    3200 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP107
+U 1 1 5E4F024A
+P 3300 3400
+F 0 "TP107" H 3358 3518 50  0001 L CNN
+F 1 "TestPoint" H 3358 3427 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3500 3400 50  0001 C CNN
+F 3 "~" H 3500 3400 50  0001 C CNN
+	1    3300 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP115
+U 1 1 5E4F0250
+P 3400 3400
+F 0 "TP115" H 3458 3518 50  0001 L CNN
+F 1 "TestPoint" H 3458 3427 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3600 3400 50  0001 C CNN
+F 3 "~" H 3600 3400 50  0001 C CNN
+	1    3400 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5E4F21B4
+P 2000 3600
+F 0 "TP4" H 2058 3718 50  0001 L CNN
+F 1 "TestPoint" H 2058 3627 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2200 3600 50  0001 C CNN
+F 3 "~" H 2200 3600 50  0001 C CNN
+	1    2000 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP12
+U 1 1 5E4F21BA
+P 2100 3600
+F 0 "TP12" H 2158 3718 50  0001 L CNN
+F 1 "TestPoint" H 2158 3627 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2300 3600 50  0001 C CNN
+F 3 "~" H 2300 3600 50  0001 C CNN
+	1    2100 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP20
+U 1 1 5E4F21C0
+P 2200 3600
+F 0 "TP20" H 2258 3718 50  0001 L CNN
+F 1 "TestPoint" H 2258 3627 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2400 3600 50  0001 C CNN
+F 3 "~" H 2400 3600 50  0001 C CNN
+	1    2200 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP28
+U 1 1 5E4F21C6
+P 2300 3600
+F 0 "TP28" H 2358 3718 50  0001 L CNN
+F 1 "TestPoint" H 2358 3627 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2500 3600 50  0001 C CNN
+F 3 "~" H 2500 3600 50  0001 C CNN
+	1    2300 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP36
+U 1 1 5E4F21CC
+P 2400 3600
+F 0 "TP36" H 2458 3718 50  0001 L CNN
+F 1 "TestPoint" H 2458 3627 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2600 3600 50  0001 C CNN
+F 3 "~" H 2600 3600 50  0001 C CNN
+	1    2400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP44
+U 1 1 5E4F21D2
+P 2500 3600
+F 0 "TP44" H 2558 3718 50  0001 L CNN
+F 1 "TestPoint" H 2558 3627 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2700 3600 50  0001 C CNN
+F 3 "~" H 2700 3600 50  0001 C CNN
+	1    2500 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP52
+U 1 1 5E4F21D8
+P 2600 3600
+F 0 "TP52" H 2658 3718 50  0001 L CNN
+F 1 "TestPoint" H 2658 3627 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2800 3600 50  0001 C CNN
+F 3 "~" H 2800 3600 50  0001 C CNN
+	1    2600 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP60
+U 1 1 5E4F21DE
+P 2700 3600
+F 0 "TP60" H 2758 3718 50  0001 L CNN
+F 1 "TestPoint" H 2758 3627 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2900 3600 50  0001 C CNN
+F 3 "~" H 2900 3600 50  0001 C CNN
+	1    2700 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP68
+U 1 1 5E4F21E4
+P 2800 3600
+F 0 "TP68" H 2858 3718 50  0001 L CNN
+F 1 "TestPoint" H 2858 3627 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3000 3600 50  0001 C CNN
+F 3 "~" H 3000 3600 50  0001 C CNN
+	1    2800 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP76
+U 1 1 5E4F21EA
+P 2900 3600
+F 0 "TP76" H 2958 3718 50  0001 L CNN
+F 1 "TestPoint" H 2958 3627 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3100 3600 50  0001 C CNN
+F 3 "~" H 3100 3600 50  0001 C CNN
+	1    2900 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP84
+U 1 1 5E4F21F0
+P 3000 3600
+F 0 "TP84" H 3058 3718 50  0001 L CNN
+F 1 "TestPoint" H 3058 3627 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3200 3600 50  0001 C CNN
+F 3 "~" H 3200 3600 50  0001 C CNN
+	1    3000 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP92
+U 1 1 5E4F21F6
+P 3100 3600
+F 0 "TP92" H 3158 3718 50  0001 L CNN
+F 1 "TestPoint" H 3158 3627 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3300 3600 50  0001 C CNN
+F 3 "~" H 3300 3600 50  0001 C CNN
+	1    3100 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP100
+U 1 1 5E4F21FC
+P 3200 3600
+F 0 "TP100" H 3258 3718 50  0001 L CNN
+F 1 "TestPoint" H 3258 3627 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3400 3600 50  0001 C CNN
+F 3 "~" H 3400 3600 50  0001 C CNN
+	1    3200 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP108
+U 1 1 5E4F2202
+P 3300 3600
+F 0 "TP108" H 3358 3718 50  0001 L CNN
+F 1 "TestPoint" H 3358 3627 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3500 3600 50  0001 C CNN
+F 3 "~" H 3500 3600 50  0001 C CNN
+	1    3300 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP116
+U 1 1 5E4F2208
+P 3400 3600
+F 0 "TP116" H 3458 3718 50  0001 L CNN
+F 1 "TestPoint" H 3458 3627 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3600 3600 50  0001 C CNN
+F 3 "~" H 3600 3600 50  0001 C CNN
+	1    3400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP5
+U 1 1 5E4F2F4F
+P 2200 3800
+F 0 "TP5" H 2258 3918 50  0001 L CNN
+F 1 "TestPoint" H 2258 3827 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2400 3800 50  0001 C CNN
+F 3 "~" H 2400 3800 50  0001 C CNN
+	1    2200 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP13
+U 1 1 5E4F2F55
+P 2300 3800
+F 0 "TP13" H 2358 3918 50  0001 L CNN
+F 1 "TestPoint" H 2358 3827 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2500 3800 50  0001 C CNN
+F 3 "~" H 2500 3800 50  0001 C CNN
+	1    2300 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP21
+U 1 1 5E4F2F5B
+P 2400 3800
+F 0 "TP21" H 2458 3918 50  0001 L CNN
+F 1 "TestPoint" H 2458 3827 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2600 3800 50  0001 C CNN
+F 3 "~" H 2600 3800 50  0001 C CNN
+	1    2400 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP29
+U 1 1 5E4F2F61
+P 2500 3800
+F 0 "TP29" H 2558 3918 50  0001 L CNN
+F 1 "TestPoint" H 2558 3827 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2700 3800 50  0001 C CNN
+F 3 "~" H 2700 3800 50  0001 C CNN
+	1    2500 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP37
+U 1 1 5E4F2F67
+P 2600 3800
+F 0 "TP37" H 2658 3918 50  0001 L CNN
+F 1 "TestPoint" H 2658 3827 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2800 3800 50  0001 C CNN
+F 3 "~" H 2800 3800 50  0001 C CNN
+	1    2600 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP45
+U 1 1 5E4F2F6D
+P 2700 3800
+F 0 "TP45" H 2758 3918 50  0001 L CNN
+F 1 "TestPoint" H 2758 3827 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2900 3800 50  0001 C CNN
+F 3 "~" H 2900 3800 50  0001 C CNN
+	1    2700 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP53
+U 1 1 5E4F2F73
+P 2800 3800
+F 0 "TP53" H 2858 3918 50  0001 L CNN
+F 1 "TestPoint" H 2858 3827 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3000 3800 50  0001 C CNN
+F 3 "~" H 3000 3800 50  0001 C CNN
+	1    2800 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP61
+U 1 1 5E4F2F79
+P 2900 3800
+F 0 "TP61" H 2958 3918 50  0001 L CNN
+F 1 "TestPoint" H 2958 3827 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3100 3800 50  0001 C CNN
+F 3 "~" H 3100 3800 50  0001 C CNN
+	1    2900 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP69
+U 1 1 5E4F2F7F
+P 3000 3800
+F 0 "TP69" H 3058 3918 50  0001 L CNN
+F 1 "TestPoint" H 3058 3827 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3200 3800 50  0001 C CNN
+F 3 "~" H 3200 3800 50  0001 C CNN
+	1    3000 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP77
+U 1 1 5E4F2F85
+P 3100 3800
+F 0 "TP77" H 3158 3918 50  0001 L CNN
+F 1 "TestPoint" H 3158 3827 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3300 3800 50  0001 C CNN
+F 3 "~" H 3300 3800 50  0001 C CNN
+	1    3100 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP85
+U 1 1 5E4F2F8B
+P 3200 3800
+F 0 "TP85" H 3258 3918 50  0001 L CNN
+F 1 "TestPoint" H 3258 3827 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3400 3800 50  0001 C CNN
+F 3 "~" H 3400 3800 50  0001 C CNN
+	1    3200 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP93
+U 1 1 5E4F2F91
+P 3300 3800
+F 0 "TP93" H 3358 3918 50  0001 L CNN
+F 1 "TestPoint" H 3358 3827 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3500 3800 50  0001 C CNN
+F 3 "~" H 3500 3800 50  0001 C CNN
+	1    3300 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP101
+U 1 1 5E4F2F97
+P 3400 3800
+F 0 "TP101" H 3458 3918 50  0001 L CNN
+F 1 "TestPoint" H 3458 3827 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3600 3800 50  0001 C CNN
+F 3 "~" H 3600 3800 50  0001 C CNN
+	1    3400 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP109
+U 1 1 5E4F2F9D
+P 2000 3800
+F 0 "TP109" H 2058 3918 50  0001 L CNN
+F 1 "TestPoint" H 2058 3827 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2200 3800 50  0001 C CNN
+F 3 "~" H 2200 3800 50  0001 C CNN
+	1    2000 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP117
+U 1 1 5E4F2FA3
+P 2100 3800
+F 0 "TP117" H 2158 3918 50  0001 L CNN
+F 1 "TestPoint" H 2158 3827 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2300 3800 50  0001 C CNN
+F 3 "~" H 2300 3800 50  0001 C CNN
+	1    2100 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5E4F4E7D
+P 1600 2800
+F 0 "#PWR0102" H 1600 2550 50  0001 C CNN
+F 1 "GND" H 1605 2627 50  0000 C CNN
+F 2 "" H 1600 2800 50  0001 C CNN
+F 3 "" H 1600 2800 50  0001 C CNN
+	1    1600 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 3000 2100 3000
+Wire Wire Line
+	2100 3000 2200 3000
+Connection ~ 2100 3000
+Connection ~ 2200 3000
+Wire Wire Line
+	2200 3000 2300 3000
+Connection ~ 2300 3000
+Wire Wire Line
+	2300 3000 2400 3000
+Connection ~ 2400 3000
+Wire Wire Line
+	2400 3000 2500 3000
+Connection ~ 2500 3000
+Wire Wire Line
+	2500 3000 2600 3000
+Connection ~ 2600 3000
+Wire Wire Line
+	2600 3000 2700 3000
+Connection ~ 2700 3000
+Wire Wire Line
+	2700 3000 2800 3000
+Connection ~ 2800 3000
+Wire Wire Line
+	2800 3000 2900 3000
+Connection ~ 2900 3000
+Wire Wire Line
+	2900 3000 3000 3000
+Connection ~ 3000 3000
+Wire Wire Line
+	3000 3000 3100 3000
+Connection ~ 3100 3000
+Wire Wire Line
+	3100 3000 3200 3000
+Connection ~ 3200 3000
+Wire Wire Line
+	3200 3000 3300 3000
+Connection ~ 3300 3000
+Wire Wire Line
+	3300 3000 3400 3000
+$Comp
+L power:+3.3V #PWR0103
+U 1 1 5E4FD140
+P 1100 3100
+F 0 "#PWR0103" H 1100 2950 50  0001 C CNN
+F 1 "+3.3V" H 1115 3273 50  0000 C CNN
+F 2 "" H 1100 3100 50  0001 C CNN
+F 3 "" H 1100 3100 50  0001 C CNN
+	1    1100 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 3200 2100 3200
+Connection ~ 2100 3200
+Wire Wire Line
+	2100 3200 2200 3200
+Connection ~ 2200 3200
+Wire Wire Line
+	2200 3200 2300 3200
+Connection ~ 2300 3200
+Wire Wire Line
+	2300 3200 2400 3200
+Connection ~ 2400 3200
+Wire Wire Line
+	2400 3200 2500 3200
+Connection ~ 2500 3200
+Wire Wire Line
+	2500 3200 2600 3200
+Connection ~ 2600 3200
+Wire Wire Line
+	2600 3200 2700 3200
+Connection ~ 2700 3200
+Wire Wire Line
+	2700 3200 2800 3200
+Connection ~ 2800 3200
+Wire Wire Line
+	2800 3200 2900 3200
+Connection ~ 2900 3200
+Wire Wire Line
+	2900 3200 3000 3200
+Connection ~ 3000 3200
+Wire Wire Line
+	3000 3200 3100 3200
+Connection ~ 3100 3200
+Wire Wire Line
+	3100 3200 3200 3200
+Connection ~ 3200 3200
+Wire Wire Line
+	3200 3200 3300 3200
+Connection ~ 3300 3200
+Wire Wire Line
+	3300 3200 3400 3200
+Wire Wire Line
+	2000 3400 2100 3400
+Connection ~ 2100 3400
+Wire Wire Line
+	2100 3400 2200 3400
+Connection ~ 2200 3400
+Wire Wire Line
+	2200 3400 2300 3400
+Connection ~ 2300 3400
+Wire Wire Line
+	2300 3400 2400 3400
+Wire Wire Line
+	1800 3600 2000 3600
+Connection ~ 2000 3600
+Wire Wire Line
+	2000 3600 2100 3600
+Connection ~ 2100 3600
+Wire Wire Line
+	2100 3600 2200 3600
+Connection ~ 2200 3600
+Wire Wire Line
+	2200 3600 2300 3600
+Connection ~ 2300 3600
+Wire Wire Line
+	2300 3600 2400 3600
+Text Label 1800 3600 2    50   ~ 0
+IO1
+Text Label 1800 3400 2    50   ~ 0
+IO0
+Wire Wire Line
+	2000 3400 1800 3400
+Connection ~ 2000 3400
+$Comp
+L Connector:TestPoint TP6
+U 1 1 5E52778F
+P 2200 4000
+F 0 "TP6" H 2258 4118 50  0001 L CNN
+F 1 "TestPoint" H 2258 4027 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2400 4000 50  0001 C CNN
+F 3 "~" H 2400 4000 50  0001 C CNN
+	1    2200 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP14
+U 1 1 5E527795
+P 2300 4000
+F 0 "TP14" H 2358 4118 50  0001 L CNN
+F 1 "TestPoint" H 2358 4027 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2500 4000 50  0001 C CNN
+F 3 "~" H 2500 4000 50  0001 C CNN
+	1    2300 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP22
+U 1 1 5E52779B
+P 2400 4000
+F 0 "TP22" H 2458 4118 50  0001 L CNN
+F 1 "TestPoint" H 2458 4027 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2600 4000 50  0001 C CNN
+F 3 "~" H 2600 4000 50  0001 C CNN
+	1    2400 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP30
+U 1 1 5E5277A1
+P 2500 4000
+F 0 "TP30" H 2558 4118 50  0001 L CNN
+F 1 "TestPoint" H 2558 4027 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2700 4000 50  0001 C CNN
+F 3 "~" H 2700 4000 50  0001 C CNN
+	1    2500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP38
+U 1 1 5E5277A7
+P 2600 4000
+F 0 "TP38" H 2658 4118 50  0001 L CNN
+F 1 "TestPoint" H 2658 4027 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2800 4000 50  0001 C CNN
+F 3 "~" H 2800 4000 50  0001 C CNN
+	1    2600 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP46
+U 1 1 5E5277AD
+P 2700 4000
+F 0 "TP46" H 2758 4118 50  0001 L CNN
+F 1 "TestPoint" H 2758 4027 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2900 4000 50  0001 C CNN
+F 3 "~" H 2900 4000 50  0001 C CNN
+	1    2700 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP54
+U 1 1 5E5277B3
+P 2800 4000
+F 0 "TP54" H 2858 4118 50  0001 L CNN
+F 1 "TestPoint" H 2858 4027 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3000 4000 50  0001 C CNN
+F 3 "~" H 3000 4000 50  0001 C CNN
+	1    2800 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP62
+U 1 1 5E5277B9
+P 2900 4000
+F 0 "TP62" H 2958 4118 50  0001 L CNN
+F 1 "TestPoint" H 2958 4027 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3100 4000 50  0001 C CNN
+F 3 "~" H 3100 4000 50  0001 C CNN
+	1    2900 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP70
+U 1 1 5E5277BF
+P 3000 4000
+F 0 "TP70" H 3058 4118 50  0001 L CNN
+F 1 "TestPoint" H 3058 4027 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3200 4000 50  0001 C CNN
+F 3 "~" H 3200 4000 50  0001 C CNN
+	1    3000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP78
+U 1 1 5E5277C5
+P 3100 4000
+F 0 "TP78" H 3158 4118 50  0001 L CNN
+F 1 "TestPoint" H 3158 4027 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3300 4000 50  0001 C CNN
+F 3 "~" H 3300 4000 50  0001 C CNN
+	1    3100 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP86
+U 1 1 5E5277CB
+P 3200 4000
+F 0 "TP86" H 3258 4118 50  0001 L CNN
+F 1 "TestPoint" H 3258 4027 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3400 4000 50  0001 C CNN
+F 3 "~" H 3400 4000 50  0001 C CNN
+	1    3200 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP94
+U 1 1 5E5277D1
+P 3300 4000
+F 0 "TP94" H 3358 4118 50  0001 L CNN
+F 1 "TestPoint" H 3358 4027 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3500 4000 50  0001 C CNN
+F 3 "~" H 3500 4000 50  0001 C CNN
+	1    3300 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP102
+U 1 1 5E5277D7
+P 3400 4000
+F 0 "TP102" H 3458 4118 50  0001 L CNN
+F 1 "TestPoint" H 3458 4027 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3600 4000 50  0001 C CNN
+F 3 "~" H 3600 4000 50  0001 C CNN
+	1    3400 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP110
+U 1 1 5E5277DD
+P 2000 4000
+F 0 "TP110" H 2058 4118 50  0001 L CNN
+F 1 "TestPoint" H 2058 4027 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2200 4000 50  0001 C CNN
+F 3 "~" H 2200 4000 50  0001 C CNN
+	1    2000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP118
+U 1 1 5E5277E3
+P 2100 4000
+F 0 "TP118" H 2158 4118 50  0001 L CNN
+F 1 "TestPoint" H 2158 4027 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2300 4000 50  0001 C CNN
+F 3 "~" H 2300 4000 50  0001 C CNN
+	1    2100 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP7
+U 1 1 5E52A668
+P 2000 4200
+F 0 "TP7" H 2058 4318 50  0001 L CNN
+F 1 "TestPoint" H 2058 4227 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2200 4200 50  0001 C CNN
+F 3 "~" H 2200 4200 50  0001 C CNN
+	1    2000 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP15
+U 1 1 5E52A66E
+P 2100 4200
+F 0 "TP15" H 2158 4318 50  0001 L CNN
+F 1 "TestPoint" H 2158 4227 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2300 4200 50  0001 C CNN
+F 3 "~" H 2300 4200 50  0001 C CNN
+	1    2100 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP23
+U 1 1 5E52A674
+P 2200 4200
+F 0 "TP23" H 2258 4318 50  0001 L CNN
+F 1 "TestPoint" H 2258 4227 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2400 4200 50  0001 C CNN
+F 3 "~" H 2400 4200 50  0001 C CNN
+	1    2200 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP31
+U 1 1 5E52A67A
+P 2300 4200
+F 0 "TP31" H 2358 4318 50  0001 L CNN
+F 1 "TestPoint" H 2358 4227 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2500 4200 50  0001 C CNN
+F 3 "~" H 2500 4200 50  0001 C CNN
+	1    2300 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP39
+U 1 1 5E52A680
+P 2400 4200
+F 0 "TP39" H 2458 4318 50  0001 L CNN
+F 1 "TestPoint" H 2458 4227 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2600 4200 50  0001 C CNN
+F 3 "~" H 2600 4200 50  0001 C CNN
+	1    2400 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP47
+U 1 1 5E52A686
+P 2500 4200
+F 0 "TP47" H 2558 4318 50  0001 L CNN
+F 1 "TestPoint" H 2558 4227 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2700 4200 50  0001 C CNN
+F 3 "~" H 2700 4200 50  0001 C CNN
+	1    2500 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP55
+U 1 1 5E52A68C
+P 2600 4200
+F 0 "TP55" H 2658 4318 50  0001 L CNN
+F 1 "TestPoint" H 2658 4227 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2800 4200 50  0001 C CNN
+F 3 "~" H 2800 4200 50  0001 C CNN
+	1    2600 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP63
+U 1 1 5E52A692
+P 2700 4200
+F 0 "TP63" H 2758 4318 50  0001 L CNN
+F 1 "TestPoint" H 2758 4227 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2900 4200 50  0001 C CNN
+F 3 "~" H 2900 4200 50  0001 C CNN
+	1    2700 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP71
+U 1 1 5E52A698
+P 2800 4200
+F 0 "TP71" H 2858 4318 50  0001 L CNN
+F 1 "TestPoint" H 2858 4227 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3000 4200 50  0001 C CNN
+F 3 "~" H 3000 4200 50  0001 C CNN
+	1    2800 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP79
+U 1 1 5E52A69E
+P 2900 4200
+F 0 "TP79" H 2958 4318 50  0001 L CNN
+F 1 "TestPoint" H 2958 4227 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3100 4200 50  0001 C CNN
+F 3 "~" H 3100 4200 50  0001 C CNN
+	1    2900 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP87
+U 1 1 5E52A6A4
+P 3000 4200
+F 0 "TP87" H 3058 4318 50  0001 L CNN
+F 1 "TestPoint" H 3058 4227 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3200 4200 50  0001 C CNN
+F 3 "~" H 3200 4200 50  0001 C CNN
+	1    3000 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP95
+U 1 1 5E52A6AA
+P 3100 4200
+F 0 "TP95" H 3158 4318 50  0001 L CNN
+F 1 "TestPoint" H 3158 4227 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3300 4200 50  0001 C CNN
+F 3 "~" H 3300 4200 50  0001 C CNN
+	1    3100 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP103
+U 1 1 5E52A6B0
+P 3200 4200
+F 0 "TP103" H 3258 4318 50  0001 L CNN
+F 1 "TestPoint" H 3258 4227 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3400 4200 50  0001 C CNN
+F 3 "~" H 3400 4200 50  0001 C CNN
+	1    3200 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP111
+U 1 1 5E52A6B6
+P 3300 4200
+F 0 "TP111" H 3358 4318 50  0001 L CNN
+F 1 "TestPoint" H 3358 4227 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3500 4200 50  0001 C CNN
+F 3 "~" H 3500 4200 50  0001 C CNN
+	1    3300 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP119
+U 1 1 5E52A6BC
+P 3400 4200
+F 0 "TP119" H 3458 4318 50  0001 L CNN
+F 1 "TestPoint" H 3458 4227 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3600 4200 50  0001 C CNN
+F 3 "~" H 3600 4200 50  0001 C CNN
+	1    3400 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP8
+U 1 1 5E52CB15
+P 2000 4400
+F 0 "TP8" H 2058 4518 50  0001 L CNN
+F 1 "TestPoint" H 2058 4427 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2200 4400 50  0001 C CNN
+F 3 "~" H 2200 4400 50  0001 C CNN
+	1    2000 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP16
+U 1 1 5E52CB1B
+P 2100 4400
+F 0 "TP16" H 2158 4518 50  0001 L CNN
+F 1 "TestPoint" H 2158 4427 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2300 4400 50  0001 C CNN
+F 3 "~" H 2300 4400 50  0001 C CNN
+	1    2100 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP24
+U 1 1 5E52CB21
+P 2200 4400
+F 0 "TP24" H 2258 4518 50  0001 L CNN
+F 1 "TestPoint" H 2258 4427 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2400 4400 50  0001 C CNN
+F 3 "~" H 2400 4400 50  0001 C CNN
+	1    2200 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP32
+U 1 1 5E52CB27
+P 2300 4400
+F 0 "TP32" H 2358 4518 50  0001 L CNN
+F 1 "TestPoint" H 2358 4427 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2500 4400 50  0001 C CNN
+F 3 "~" H 2500 4400 50  0001 C CNN
+	1    2300 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP40
+U 1 1 5E52CB2D
+P 2400 4400
+F 0 "TP40" H 2458 4518 50  0001 L CNN
+F 1 "TestPoint" H 2458 4427 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2600 4400 50  0001 C CNN
+F 3 "~" H 2600 4400 50  0001 C CNN
+	1    2400 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP48
+U 1 1 5E52CB33
+P 2500 4400
+F 0 "TP48" H 2558 4518 50  0001 L CNN
+F 1 "TestPoint" H 2558 4427 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2700 4400 50  0001 C CNN
+F 3 "~" H 2700 4400 50  0001 C CNN
+	1    2500 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP56
+U 1 1 5E52CB39
+P 2600 4400
+F 0 "TP56" H 2658 4518 50  0001 L CNN
+F 1 "TestPoint" H 2658 4427 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2800 4400 50  0001 C CNN
+F 3 "~" H 2800 4400 50  0001 C CNN
+	1    2600 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP64
+U 1 1 5E52CB3F
+P 2700 4400
+F 0 "TP64" H 2758 4518 50  0001 L CNN
+F 1 "TestPoint" H 2758 4427 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 2900 4400 50  0001 C CNN
+F 3 "~" H 2900 4400 50  0001 C CNN
+	1    2700 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP72
+U 1 1 5E52CB45
+P 2800 4400
+F 0 "TP72" H 2858 4518 50  0001 L CNN
+F 1 "TestPoint" H 2858 4427 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3000 4400 50  0001 C CNN
+F 3 "~" H 3000 4400 50  0001 C CNN
+	1    2800 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP80
+U 1 1 5E52CB4B
+P 2900 4400
+F 0 "TP80" H 2958 4518 50  0001 L CNN
+F 1 "TestPoint" H 2958 4427 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3100 4400 50  0001 C CNN
+F 3 "~" H 3100 4400 50  0001 C CNN
+	1    2900 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP88
+U 1 1 5E52CB51
+P 3000 4400
+F 0 "TP88" H 3058 4518 50  0001 L CNN
+F 1 "TestPoint" H 3058 4427 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3200 4400 50  0001 C CNN
+F 3 "~" H 3200 4400 50  0001 C CNN
+	1    3000 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP96
+U 1 1 5E52CB57
+P 3100 4400
+F 0 "TP96" H 3158 4518 50  0001 L CNN
+F 1 "TestPoint" H 3158 4427 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3300 4400 50  0001 C CNN
+F 3 "~" H 3300 4400 50  0001 C CNN
+	1    3100 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP104
+U 1 1 5E52CB5D
+P 3200 4400
+F 0 "TP104" H 3258 4518 50  0001 L CNN
+F 1 "TestPoint" H 3258 4427 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3400 4400 50  0001 C CNN
+F 3 "~" H 3400 4400 50  0001 C CNN
+	1    3200 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP112
+U 1 1 5E52CB63
+P 3300 4400
+F 0 "TP112" H 3358 4518 50  0001 L CNN
+F 1 "TestPoint" H 3358 4427 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3500 4400 50  0001 C CNN
+F 3 "~" H 3500 4400 50  0001 C CNN
+	1    3300 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP120
+U 1 1 5E52CB69
+P 3400 4400
+F 0 "TP120" H 3458 4518 50  0001 L CNN
+F 1 "TestPoint" H 3458 4427 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 3600 4400 50  0001 C CNN
+F 3 "~" H 3600 4400 50  0001 C CNN
+	1    3400 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0104
+U 1 1 5E53A22F
+P 1100 4100
+F 0 "#PWR0104" H 1100 3950 50  0001 C CNN
+F 1 "+5V" H 1115 4273 50  0000 C CNN
+F 2 "" H 1100 4100 50  0001 C CNN
+F 3 "" H 1100 4100 50  0001 C CNN
+	1    1100 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5E54102D
+P 1600 4400
+F 0 "#PWR0105" H 1600 4150 50  0001 C CNN
+F 1 "GND" H 1605 4227 50  0000 C CNN
+F 2 "" H 1600 4400 50  0001 C CNN
+F 3 "" H 1600 4400 50  0001 C CNN
+	1    1600 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 4400 2000 4400
+Connection ~ 2000 4400
+Wire Wire Line
+	2000 4400 2100 4400
+Connection ~ 2100 4400
+Wire Wire Line
+	2100 4400 2200 4400
+Connection ~ 2200 4400
+Wire Wire Line
+	2200 4400 2300 4400
+Connection ~ 2300 4400
+Wire Wire Line
+	2300 4400 2400 4400
+Connection ~ 2400 4400
+Wire Wire Line
+	2400 4400 2500 4400
+Connection ~ 2500 4400
+Wire Wire Line
+	2500 4400 2600 4400
+Connection ~ 2600 4400
+Wire Wire Line
+	2600 4400 2700 4400
+Connection ~ 2700 4400
+Wire Wire Line
+	2700 4400 2800 4400
+Connection ~ 2800 4400
+Wire Wire Line
+	2800 4400 2900 4400
+Connection ~ 2900 4400
+Wire Wire Line
+	2900 4400 3000 4400
+Connection ~ 3000 4400
+Wire Wire Line
+	3000 4400 3100 4400
+Connection ~ 3100 4400
+Wire Wire Line
+	3100 4400 3200 4400
+Connection ~ 3200 4400
+Wire Wire Line
+	3200 4400 3300 4400
+Connection ~ 3300 4400
+Wire Wire Line
+	3300 4400 3400 4400
+Wire Wire Line
+	2000 4200 2100 4200
+Connection ~ 2100 4200
+Wire Wire Line
+	2100 4200 2200 4200
+Connection ~ 2200 4200
+Wire Wire Line
+	2200 4200 2300 4200
+Connection ~ 2300 4200
+Wire Wire Line
+	2300 4200 2400 4200
+Connection ~ 2400 4200
+Wire Wire Line
+	2400 4200 2500 4200
+Connection ~ 2500 4200
+Wire Wire Line
+	2500 4200 2600 4200
+Connection ~ 2600 4200
+Wire Wire Line
+	2600 4200 2700 4200
+Connection ~ 2700 4200
+Wire Wire Line
+	2700 4200 2800 4200
+Connection ~ 2800 4200
+Wire Wire Line
+	2800 4200 2900 4200
+Connection ~ 2900 4200
+Wire Wire Line
+	2900 4200 3000 4200
+Connection ~ 3000 4200
+Wire Wire Line
+	3000 4200 3100 4200
+Connection ~ 3100 4200
+Wire Wire Line
+	3100 4200 3200 4200
+Connection ~ 3200 4200
+Wire Wire Line
+	3200 4200 3300 4200
+Connection ~ 3300 4200
+Wire Wire Line
+	3300 4200 3400 4200
+Wire Wire Line
+	3300 3400 3400 3400
+Connection ~ 3400 3400
+Wire Wire Line
+	3400 3400 3600 3400
+Wire Wire Line
+	3300 3600 3400 3600
+Connection ~ 3400 3600
+Wire Wire Line
+	3400 3600 3600 3600
+Text Label 3600 3400 0    50   ~ 0
+TX
+Text Label 3600 3600 0    50   ~ 0
+RX
+Wire Wire Line
+	2000 3800 2100 3800
+Wire Wire Line
+	2000 4000 2100 4000
+Text Label 1800 3800 2    50   ~ 0
+EN
+Text Label 1800 4000 2    50   ~ 0
+RST
+$Comp
+L Regulator_Switching:R-78E3.3-0.5 U3
+U 1 1 5E57A1AE
+P 8400 2100
+F 0 "U3" H 8400 2342 50  0000 C CNN
+F 1 "R-78E3.3-0.5" H 8400 2251 50  0000 C CNN
+F 2 "Converter_DCDC:Converter_DCDC_RECOM_R-78E-0.5_THT" H 8450 1850 50  0001 L CIN
+F 3 "https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf" H 8400 2100 50  0001 C CNN
+F 4 "945-1661-5-ND" H 8400 2100 50  0001 C CNN "DigikeyPN"
+	1    8400 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Switching:R-78E5.0-0.5 U2
+U 1 1 5E57DC2A
+P 8400 1050
+F 0 "U2" H 8400 1292 50  0000 C CNN
+F 1 "R-78E5.0-0.5" H 8400 1201 50  0000 C CNN
+F 2 "Converter_DCDC:Converter_DCDC_RECOM_R-78E-0.5_THT" H 8450 800 50  0001 L CIN
+F 3 "https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf" H 8400 1050 50  0001 C CNN
+F 4 "945-1648-5-ND" H 8400 1050 50  0001 C CNN "DigikeyPN"
+	1    8400 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0106
+U 1 1 5E57F846
+P 7250 900
+F 0 "#PWR0106" H 7250 750 50  0001 C CNN
+F 1 "+12V" H 7265 1073 50  0000 C CNN
+F 2 "" H 7250 900 50  0001 C CNN
+F 3 "" H 7250 900 50  0001 C CNN
+	1    7250 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5E58AF5C
+P 8400 2600
+F 0 "#PWR0107" H 8400 2350 50  0001 C CNN
+F 1 "GND" H 8405 2427 50  0000 C CNN
+F 2 "" H 8400 2600 50  0001 C CNN
+F 3 "" H 8400 2600 50  0001 C CNN
+	1    8400 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 2600 8400 2500
+Connection ~ 8400 2500
+Wire Wire Line
+	8400 2500 8400 2400
+$Comp
+L power:+3.3V #PWR0108
+U 1 1 5E4E130D
+P 5100 4100
+F 0 "#PWR0108" H 5100 3950 50  0001 C CNN
+F 1 "+3.3V" H 5115 4273 50  0000 C CNN
+F 2 "" H 5100 4100 50  0001 C CNN
+F 3 "" H 5100 4100 50  0001 C CNN
+	1    5100 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0109
+U 1 1 5E5D1B13
+P 8950 2000
+F 0 "#PWR0109" H 8950 1850 50  0001 C CNN
+F 1 "+3.3V" H 8965 2173 50  0000 C CNN
+F 2 "" H 8950 2000 50  0001 C CNN
+F 3 "" H 8950 2000 50  0001 C CNN
+	1    8950 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 2100 8950 2100
+Wire Wire Line
+	8950 2100 8950 2000
+$Comp
+L Device:L L2
+U 1 1 5E5DC3DC
+P 7550 1050
+F 0 "L2" V 7740 1050 50  0000 C CNN
+F 1 "L" V 7649 1050 50  0000 C CNN
+F 2 "RLS-397:IND_RLS-397" H 7550 1050 50  0001 C CNN
+F 3 "~" H 7550 1050 50  0001 C CNN
+F 4 "945-30004967-ND" H 7550 1050 50  0001 C CNN "DigikeyPN"
+	1    7550 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5E5DC3E2
+P 7250 1250
+F 0 "C2" H 7365 1296 50  0000 L CNN
+F 1 "4.7uF" H 7365 1205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7288 1100 50  0001 C CNN
+F 3 "~" H 7250 1250 50  0001 C CNN
+F 4 "490-10751-1-ND" H 7250 1250 50  0001 C CNN "DigikeyPN"
+	1    7250 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5E5DC3E8
+P 7850 1250
+F 0 "C4" H 7965 1296 50  0000 L CNN
+F 1 "4.7uF" H 7965 1205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7888 1100 50  0001 C CNN
+F 3 "~" H 7850 1250 50  0001 C CNN
+F 4 "490-10751-1-ND" H 7850 1250 50  0001 C CNN "DigikeyPN"
+	1    7850 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 1100 7250 1050
+Wire Wire Line
+	7250 1050 7400 1050
+Wire Wire Line
+	7700 1050 7850 1050
+Wire Wire Line
+	7850 1050 7850 1100
+Connection ~ 7850 1050
+Wire Wire Line
+	7250 900  7250 1050
+Connection ~ 7250 1050
+Wire Wire Line
+	7250 1500 7250 1400
+Wire Wire Line
+	7850 1400 7850 1500
+Connection ~ 7850 1500
+Wire Wire Line
+	7850 1050 8100 1050
+Wire Wire Line
+	7850 1500 7250 1500
+Wire Wire Line
+	8400 1500 8400 1550
+Connection ~ 8400 1500
+Wire Wire Line
+	7850 1500 8400 1500
+Wire Wire Line
+	8400 1350 8400 1500
+$Comp
+L power:GND #PWR0110
+U 1 1 5E58D4A5
+P 8400 1550
+F 0 "#PWR0110" H 8400 1300 50  0001 C CNN
+F 1 "GND" H 8405 1377 50  0000 C CNN
+F 2 "" H 8400 1550 50  0001 C CNN
+F 3 "" H 8400 1550 50  0001 C CNN
+	1    8400 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0111
+U 1 1 5E625C7B
+P 8850 950
+F 0 "#PWR0111" H 8850 800 50  0001 C CNN
+F 1 "+5V" H 8865 1123 50  0000 C CNN
+F 2 "" H 8850 950 50  0001 C CNN
+F 3 "" H 8850 950 50  0001 C CNN
+	1    8850 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 1050 8850 1050
+Wire Wire Line
+	8850 1050 8850 950 
+Wire Wire Line
+	7800 2500 7200 2500
+Connection ~ 7800 2500
+Wire Wire Line
+	7800 2450 7800 2500
+Wire Wire Line
+	7200 2500 7200 2450
+Wire Wire Line
+	8400 2500 7800 2500
+Connection ~ 7200 2100
+Wire Wire Line
+	7200 1950 7200 2100
+Connection ~ 7800 2100
+Wire Wire Line
+	7800 2100 8100 2100
+Wire Wire Line
+	7800 2100 7800 2150
+Wire Wire Line
+	7650 2100 7800 2100
+Wire Wire Line
+	7200 2100 7350 2100
+Wire Wire Line
+	7200 2150 7200 2100
+$Comp
+L Device:C C3
+U 1 1 5E595BC5
+P 7800 2300
+F 0 "C3" H 7915 2346 50  0000 L CNN
+F 1 "4.7uF" H 7915 2255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7838 2150 50  0001 C CNN
+F 3 "~" H 7800 2300 50  0001 C CNN
+F 4 "490-10751-1-ND" H 7800 2300 50  0001 C CNN "DigikeyPN"
+	1    7800 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5E5943FF
+P 7200 2300
+F 0 "C1" H 7315 2346 50  0000 L CNN
+F 1 "4.7uF" H 7315 2255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7238 2150 50  0001 C CNN
+F 3 "~" H 7200 2300 50  0001 C CNN
+F 4 "490-10751-1-ND" H 7200 2300 50  0001 C CNN "DigikeyPN"
+	1    7200 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L1
+U 1 1 5E593800
+P 7500 2100
+F 0 "L1" V 7690 2100 50  0000 C CNN
+F 1 "L" V 7599 2100 50  0000 C CNN
+F 2 "RLS-397:IND_RLS-397" H 7500 2100 50  0001 C CNN
+F 3 "~" H 7500 2100 50  0001 C CNN
+F 4 "945-30004967-ND" H 7500 2100 50  0001 C CNN "DigikeyPN"
+	1    7500 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+12V #PWR0112
+U 1 1 5E57F10D
+P 7200 1950
+F 0 "#PWR0112" H 7200 1800 50  0001 C CNN
+F 1 "+12V" H 7215 2123 50  0000 C CNN
+F 2 "" H 7200 1950 50  0001 C CNN
+F 3 "" H 7200 1950 50  0001 C CNN
+	1    7200 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 3800 2300 3800
+Connection ~ 2300 3800
+Wire Wire Line
+	2300 3800 2400 3800
+Connection ~ 2400 3800
+Wire Wire Line
+	2400 3800 2500 3800
+Connection ~ 2500 3800
+Wire Wire Line
+	2500 3800 2600 3800
+Connection ~ 2600 3800
+Wire Wire Line
+	2600 3800 2700 3800
+Connection ~ 2700 3800
+Wire Wire Line
+	2700 3800 2800 3800
+Connection ~ 2800 3800
+Wire Wire Line
+	2800 3800 2900 3800
+Connection ~ 2900 3800
+Wire Wire Line
+	2900 3800 3000 3800
+Connection ~ 3000 3800
+Wire Wire Line
+	3000 3800 3100 3800
+Connection ~ 3100 3800
+Wire Wire Line
+	3100 3800 3200 3800
+Connection ~ 3200 3800
+Wire Wire Line
+	3200 3800 3300 3800
+Connection ~ 3300 3800
+Wire Wire Line
+	3300 3800 3400 3800
+Wire Wire Line
+	2200 4000 2300 4000
+Connection ~ 2300 4000
+Wire Wire Line
+	2300 4000 2400 4000
+Connection ~ 2400 4000
+Wire Wire Line
+	2400 4000 2500 4000
+Connection ~ 2500 4000
+Wire Wire Line
+	2500 4000 2600 4000
+Connection ~ 2600 4000
+Wire Wire Line
+	2600 4000 2700 4000
+Connection ~ 2700 4000
+Wire Wire Line
+	2700 4000 2800 4000
+Connection ~ 2800 4000
+Wire Wire Line
+	2800 4000 2900 4000
+Connection ~ 2900 4000
+Wire Wire Line
+	2900 4000 3000 4000
+Connection ~ 3000 4000
+Wire Wire Line
+	3000 4000 3100 4000
+Connection ~ 3100 4000
+Wire Wire Line
+	3100 4000 3200 4000
+Connection ~ 3200 4000
+Wire Wire Line
+	3200 4000 3300 4000
+Connection ~ 3300 4000
+Wire Wire Line
+	3300 4000 3400 4000
+Wire Wire Line
+	2500 3600 2600 3600
+Connection ~ 2600 3600
+Wire Wire Line
+	2600 3600 2700 3600
+Connection ~ 2700 3600
+Wire Wire Line
+	2700 3600 2800 3600
+Connection ~ 2800 3600
+Wire Wire Line
+	2800 3600 2900 3600
+Connection ~ 2900 3600
+Wire Wire Line
+	2900 3600 3000 3600
+Connection ~ 3000 3600
+Wire Wire Line
+	3000 3600 3100 3600
+Wire Wire Line
+	3100 3600 3200 3600
+Wire Wire Line
+	2500 3400 2600 3400
+Connection ~ 2600 3400
+Wire Wire Line
+	2600 3400 2700 3400
+Connection ~ 2700 3400
+Wire Wire Line
+	2700 3400 2800 3400
+Connection ~ 2800 3400
+Wire Wire Line
+	2800 3400 2900 3400
+Connection ~ 2900 3400
+Wire Wire Line
+	2900 3400 3000 3400
+Connection ~ 3000 3400
+Wire Wire Line
+	3000 3400 3100 3400
+Wire Wire Line
+	3100 3400 3200 3400
+Wire Wire Line
+	3400 3800 3600 3800
+Text Label 3600 3800 0    50   ~ 0
+Row4
+Text Label 3600 4000 0    50   ~ 0
+Row5
+Text Label 2500 3600 2    50   ~ 0
+Row3
+Text Label 2500 3400 2    50   ~ 0
+Row2
+Wire Wire Line
+	1600 2800 1800 2800
+Wire Wire Line
+	1800 2800 1800 3000
+Wire Wire Line
+	1800 3000 2000 3000
+Connection ~ 2000 3000
+Wire Wire Line
+	1600 3200 2000 3200
+Connection ~ 2000 3200
+$Comp
+L Connector:TestPoint TP123
+U 1 1 5E5A4FB6
+P 1600 3200
+F 0 "TP123" H 1658 3318 50  0001 L CNN
+F 1 "TestPoint" H 1658 3227 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 1800 3200 50  0001 C CNN
+F 3 "~" H 1800 3200 50  0001 C CNN
+	1    1600 3200
+	1    0    0    -1  
+$EndComp
+Text Label 1500 3200 2    50   ~ 0
+Row1
+Wire Wire Line
+	2000 4200 1600 4200
+Connection ~ 2000 4200
+Text Label 1500 4200 2    50   ~ 0
+Row6
+$Comp
+L Connector:TestPoint TP124
+U 1 1 5E5BACDB
+P 1600 4200
+F 0 "TP124" H 1658 4318 50  0001 L CNN
+F 1 "TestPoint" H 1658 4227 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 1800 4200 50  0001 C CNN
+F 3 "~" H 1800 4200 50  0001 C CNN
+	1    1600 4200
+	1    0    0    -1  
+$EndComp
+Connection ~ 1600 4200
+Wire Wire Line
+	1600 4200 1500 4200
+Wire Wire Line
+	1600 3200 1500 3200
+Connection ~ 1600 3200
+$Comp
+L Connector:TestPoint TP121
+U 1 1 5E5D4508
+P 1200 3200
+F 0 "TP121" H 1258 3318 50  0001 L CNN
+F 1 "TestPoint" H 1258 3227 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 1400 3200 50  0001 C CNN
+F 3 "~" H 1400 3200 50  0001 C CNN
+	1    1200 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 3100 1100 3200
+Wire Wire Line
+	1100 3200 1200 3200
+$Comp
+L Connector:TestPoint TP122
+U 1 1 5E5E0FF9
+P 1200 4200
+F 0 "TP122" H 1258 4318 50  0001 L CNN
+F 1 "TestPoint" H 1258 4227 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 1400 4200 50  0001 C CNN
+F 3 "~" H 1400 4200 50  0001 C CNN
+	1    1200 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 4100 1100 4200
+Wire Wire Line
+	1100 4200 1200 4200
+$Comp
+L Connector:TestPoint TP125
+U 1 1 5E60C42E
+P 1200 3600
+F 0 "TP125" H 1258 3718 50  0001 L CNN
+F 1 "TestPoint" H 1258 3627 50  0001 L CNN
+F 2 "ESP-01_Breakout:TP" H 1400 3600 50  0001 C CNN
+F 3 "~" H 1400 3600 50  0001 C CNN
+	1    1200 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0113
+U 1 1 5E614E78
+P 1100 3500
+F 0 "#PWR0113" H 1100 3350 50  0001 C CNN
+F 1 "+12V" H 1115 3673 50  0000 C CNN
+F 2 "" H 1100 3500 50  0001 C CNN
+F 3 "" H 1100 3500 50  0001 C CNN
+	1    1100 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 3500 1100 3600
+Wire Wire Line
+	1100 3600 1200 3600
+$Comp
+L TBL003-254-02GR-2OR:TBL003-254-02GR-2OR J1
+U 1 1 5E644418
+P 4900 1500
+F 0 "J1" H 4793 1233 50  0000 C CNN
+F 1 "TBL003-254-02GR-2OR" H 4793 1324 50  0000 C CNN
+F 2 "TBL003-254-02GR-2OR:CUI_TBL003-254-02GR-2OR" H 4900 1500 50  0001 L BNN
+F 3 "Manufacturer Recommendations" H 4900 1500 50  0001 L BNN
+F 4 "CUI" H 4900 1500 50  0001 L BNN "Field4"
+F 5 "102-6385-ND" H 4900 1500 50  0001 C CNN "DigikeyPN"
+	1    4900 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+12V #PWR0114
+U 1 1 5E64A584
+P 6200 1100
+F 0 "#PWR0114" H 6200 950 50  0001 C CNN
+F 1 "+12V" H 6215 1273 50  0000 C CNN
+F 2 "" H 6200 1100 50  0001 C CNN
+F 3 "" H 6200 1100 50  0001 C CNN
+	1    6200 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 5E657F15
+P 5400 1700
+F 0 "#PWR0115" H 5400 1450 50  0001 C CNN
+F 1 "GND" H 5405 1527 50  0000 C CNN
+F 2 "" H 5400 1700 50  0001 C CNN
+F 3 "" H 5400 1700 50  0001 C CNN
+	1    5400 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 1600 5400 1600
+Wire Wire Line
+	5400 1600 5400 1700
+$Comp
+L Switch:SW_SPDT SW1
+U 1 1 5E67C100
+P 5700 1500
+F 0 "SW1" H 5700 1785 50  0000 C CNN
+F 1 "SW_SPDT" H 5700 1694 50  0000 C CNN
+F 2 "ESP-01_Breakout:L102011ML04Q" H 5700 1500 50  0001 C CNN
+F 3 "~" H 5700 1500 50  0001 C CNN
+F 4 "CKN10652-ND" H 5700 1500 50  0001 C CNN "DigikeyPN"
+	1    5700 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 1500 5500 1500
+Wire Wire Line
+	5900 1400 6200 1400
+Wire Wire Line
+	6200 1100 6200 1400
+Connection ~ 3100 3400
+Connection ~ 3100 3600
+Connection ~ 3400 3800
+Connection ~ 3400 4000
+Wire Wire Line
+	3400 4000 3600 4000
+Connection ~ 2000 3800
+Wire Wire Line
+	2000 3800 1800 3800
+Connection ~ 2000 4000
+Wire Wire Line
+	2000 4000 1800 4000
+Wire Wire Line
+	6000 1600 5900 1600
+Text Label 6000 1600 0    50   ~ 0
+Off
+$EndSCHEMATC
