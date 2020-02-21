@@ -1,0 +1,26 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>KiCad BOM Example 5</title>
+    </head>
+    <body>
+    <h1>/home/gezepi/Projects/ESP-01_Breakout/ESP-01_Breakout.sch</h1>
+    <p>Fri 21 Feb 2020 01:53:59 PM CST</p>
+    <p>Eeschema 5.1.5</p>
+    <p><b>Component Count:</b>136</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
+    <tr><td>C1, C2, C3, C4</td><td>4</td><td>4.7uF</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>J2</td><td>1</td><td>Barrel_Jack_Switch</td><td>Connector:Barrel_Jack_Switch</td><td>ESP-01_Breakout:BarrelJack_Horizontal</td><td>DC Barrel Jack with an internal switch</td><td></td></tr>
+    <tr><td>L1, L2</td><td>2</td><td>L</td><td>Device:L</td><td>RLS-397:IND_RLS-397</td><td>Inductor</td><td></td></tr>
+    <tr><td>SW1</td><td>1</td><td>SW_SPDT</td><td>Switch:SW_SPDT</td><td>ESP-01_Breakout:SS312SAH4-R</td><td>Switch, single pole double throw</td><td></td></tr>
+    <tr><td>U1</td><td>1</td><td>ESP-01v090</td><td>ESP8266:ESP-01v090</td><td>ESP8266:ESP-01</td><td>ESP8266 ESP-01 module, v090</td><td></td></tr>
+    <tr><td>U2</td><td>1</td><td>R-78E5.0-0.5</td><td>Regulator_Switching:R-78E5.0-0.5</td><td>Converter_DCDC:Converter_DCDC_RECOM_R-78E-0.5_THT</td><td>500mA Step-Down DC/DC-Regulator, 7-28V input, 5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3</td><td></td></tr>
+    <tr><td>U3</td><td>1</td><td>R-78E3.3-0.5</td><td>Regulator_Switching:R-78E3.3-0.5</td><td>Converter_DCDC:Converter_DCDC_RECOM_R-78E-0.5_THT</td><td>500mA Step-Down DC/DC-Regulator, 6-28V input, 3.3V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3</td><td></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    
