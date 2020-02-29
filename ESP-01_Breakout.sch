@@ -1688,12 +1688,12 @@ $EndComp
 $Comp
 L power:+12V #PWR0106
 U 1 1 5E57F846
-P 7250 900
-F 0 "#PWR0106" H 7250 750 50  0001 C CNN
-F 1 "+12V" H 7265 1073 50  0000 C CNN
-F 2 "" H 7250 900 50  0001 C CNN
-F 3 "" H 7250 900 50  0001 C CNN
-	1    7250 900 
+P 7250 650
+F 0 "#PWR0106" H 7250 500 50  0001 C CNN
+F 1 "+12V" H 7265 823 50  0000 C CNN
+F 2 "" H 7250 650 50  0001 C CNN
+F 3 "" H 7250 650 50  0001 C CNN
+	1    7250 650 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1783,9 +1783,6 @@ Wire Wire Line
 Wire Wire Line
 	7850 1050 7850 1100
 Connection ~ 7850 1050
-Wire Wire Line
-	7250 900  7250 1050
-Connection ~ 7250 1050
 Wire Wire Line
 	7250 1500 7250 1400
 Wire Wire Line
@@ -2189,4 +2186,20 @@ Wire Wire Line
 	6200 1600 5900 1600
 Wire Wire Line
 	6200 1100 6200 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP1
+U 1 1 5E5B755B
+P 7250 850
+F 0 "JP1" H 7250 1055 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 7250 964 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 7250 850 50  0001 C CNN
+F 3 "~" H 7250 850 50  0001 C CNN
+	1    7250 850 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7250 650  7250 700 
+Wire Wire Line
+	7250 1000 7250 1050
+Connection ~ 7250 1050
 $EndSCHEMATC
